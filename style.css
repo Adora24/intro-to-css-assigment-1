@@ -1,0 +1,24 @@
+.Likes {
+  font-family: fantasy;
+  background-color: aqua;
+}
+
+ul {
+  background-color: palevioletred;
+}
+/* showing specificity (.Likes)background-color, overrides (ul)backgound-color. */
+
+.sub {
+  background-color: red;
+}
+
+#Dislikes {
+  color: darkblue;
+  font-size: larger;
+}
+
+ol {
+  color: #000;
+  font-size: small;
+}
+/*showing inheritance,(ol) which is the children tag to(#Dislikes parent tag) inherits the parent property, ehances the children property is overriden*/
